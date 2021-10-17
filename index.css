@@ -1,0 +1,71 @@
+body {
+  background-image: url(hatter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1000px;
+  background-color: rgb(172, 243, 243);
+  padding: 20px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: blue;
+}
+.kep {
+  display: block;
+  max-width: 200px;
+}
+.bekezdes {
+  text-align: justify;
+  text-indent: 1rem;
+}
+li {
+  padding-left: 1rem;
+}
+.felkover {
+  font-weight: bold;
+  color: blue;
+}
+.kep-tarolo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.szoveg {
+  text-align: center;
+  color: blue;
+}
+.kep-tarolo div {
+  box-shadow: 2px 2px 5px black;
+}
+footer {
+  display: flex;
+  flex: row;
+  justify-content: flex-end;
+}
+#link {
+  display: inline-block;
+  text-align: right;
+  padding-top: 2rem;
+}
+table {
+  border: 2px solid blue;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  box-shadow: 1 1 white;
+  border: 1px solid white;
+  border-width: 1px;
+  text-align: center;
+}
+th {
+  background-color: blue;
+  color: white;
+}
